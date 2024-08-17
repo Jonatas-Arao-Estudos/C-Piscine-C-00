@@ -6,7 +6,7 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 17:27:56 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/08/16 16:11:02 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/08/17 09:00:05 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_is_negative(int number)
 {
-	if (number > 0)
+	if (number >= 0)
 	{
 		write(1, "P", 1);
 	}
