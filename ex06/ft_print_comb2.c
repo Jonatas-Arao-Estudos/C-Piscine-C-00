@@ -6,7 +6,7 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/16 18:01:56 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/08/19 15:55:43 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/08/21 09:39:34 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,11 @@ void	ft_print_comb2(void)
 			if (first < second)
 			{
 				write(1, &numbers, 5);
-				write(1, ", ", 2);
+				if (first < 98)
+					write(1, ", ", 2);
 			}
 			second = second + 1;
 		}
 		first = first + 1;
 	}
-	write(1, "\b\b", 2);
 }
